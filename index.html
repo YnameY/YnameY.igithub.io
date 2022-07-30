@@ -1,27 +1,30 @@
 <html>
 
 	<head>
-		<title>adsasdasd</title>		
-	</head>
+
 	<body>
 		<h1>서울 기름진 곳</h1>
 		<h2>네트워크 보안 솔루션</h2>
 		<script>
-			var names = ['이순신', '강감찬', '을지문덕','맥아더'];
-			
-			
-			//for (var i = 0; i < names.length; i++){
-			names.forEach(function(name){
-				console.log(i);
-				document.write('<p>'+name+'<p>');
+			function sum(var a, var b){
+				var c = a + b;
+				
+				return c;
 				
 			}
+			
+			document.write('<p>합계:' + sum(2,5) + '<p>');
+			
+			var names = ['이순신', '권자룡' , '갑룡씨' ,'명기김'];
+			
+			names.push('윤봉길');
+			names.splice(1,0,'김구');
 		
 			
 		</script>
 	</body>
 
-	
+	</head>
 
 
 </html>
